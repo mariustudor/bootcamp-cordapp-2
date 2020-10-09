@@ -11,9 +11,8 @@ import java.util.List;
 /* Our state, defining a shared fact on the ledger.
  * See src/main/java/examples/ArtState.java for an example. */
 public class ServiceState implements ContractState {
-
-    private final Party owner;
     private final Party mechanic;
+    private final Party owner;
     private final Party manufacturer;
     private final String servicesProvided;
     private final Boolean ecoFriendly;
