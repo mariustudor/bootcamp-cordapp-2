@@ -19,8 +19,9 @@ public class ServiceState implements ContractState {
     private final Boolean ecoFriendly;
 
     public ServiceState(Party owner, Party mechanic, Party manufacturer, String servicesProvided, Boolean ecoFriendly) {
-        this.owner = owner;
+
         this.mechanic = mechanic;
+        this.owner = owner;
         this.manufacturer = manufacturer;
         this.servicesProvided = servicesProvided;
         this.ecoFriendly = ecoFriendly;
